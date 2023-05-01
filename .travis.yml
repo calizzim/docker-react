@@ -8,8 +8,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-west-1"
-  app: "docker-react"
-  env: "Docker-react-env"
+  app: "docker-react-test"
+  env: "Docker-react-test-env"
   bucket_name: "elasticbeanstalk-us-west-1-795760604743"
   bucket_path: "docker-react"
   access_key_id: $AWS_ACCESS_KEY
